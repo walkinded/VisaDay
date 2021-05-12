@@ -1,0 +1,47 @@
+/* Thin */
+
+@font-face {
+    font-family: 'FFNort';
+    src: local('FFNort'),
+         url('../fonts/FFNort-Thin.ttf') format('truetype'),
+         url('../fonts/FFNort-Thin.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/FFNort-Thin.woff') format('woff'); 
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Light */
+
+@font-face {
+    font-family: 'FFNort';
+    src: local('FFNort'),
+         url('../fonts/FFNort-Light.ttf') format('truetype'),
+         url('../fonts/FFNort-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/FFNort-Light.woff') format('woff'); 
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Medium */
+
+@font-face {
+    font-family: 'FFNort';
+    src: local('FFNort'),
+         url('../fonts/FFNort-Medium.ttf') format('truetype'),
+         url('../fonts/FFNort-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/FFNort-Medium.woff') format('woff'); 
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Bold */
+
+@font-face {
+    font-family: 'FFNort';
+    src: local('FFNort'),
+         url('../fonts/FFNort-Bold.ttf') format('truetype'),
+         url('../fonts/FFNort-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/FFNort-Bold.woff') format('woff'); 
+    font-weight: 700;
+    font-style: normal;
+}
