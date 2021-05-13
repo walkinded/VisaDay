@@ -83,10 +83,11 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-    /* .box-container {
-        max-width: 680px;
-        padding: 0 10px;
-    } */
+    header {
+        position:absolute;
+        width: 100%;
+        padding: 15px 0;
+    }
 
     /* <burger menu> */
     .wrapper {
