@@ -1,3 +1,3 @@
 # VisaDay
 
-Доступ:  https://walkinded.github.io/VisaDay/
+Доступ:  https://walkinded.github.io/VisaDay
