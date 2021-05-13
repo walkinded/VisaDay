@@ -172,9 +172,9 @@
    }
 
    .blok1_item h1 {
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 45px;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 45px;
     }
 
     .blok1_item p {
@@ -235,8 +235,18 @@
         align-items: center;
     }
 
+    .blok1_item h1 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
     .box-info img {
         width: 20%;
+    }
+
+    .display_none {
+        display: none;
     }
 }
 
@@ -255,12 +265,6 @@
     .input {
         width: 80%;
         /* min-height: 52px; */
-    }
-
-    .blok1_item h1 {
-        font-weight: 500;
-        font-size: 35px;
-        line-height: 40px;
     }
     
     .blok1_item p {
