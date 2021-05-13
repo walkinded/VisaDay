@@ -91,6 +91,7 @@
     /* <burger menu> */
     .wrapper {
         display: block;
+        background: rgba(38, 60, 73, 0.2);
     }
     .menuToggle{
         display: block;
@@ -99,6 +100,7 @@
         display: none;
         width: 100%;
         padding-left: 10px;
+        background: rgba(38, 60, 73, 0.8);
     }
 
     .menu li{
