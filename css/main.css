@@ -136,7 +136,7 @@ menu{
       transition: 0.5s;
       display: inline-block;
       margin-left: 12px;
-      margin-bottom: 1px;
+      margin-bottom: 2px;
   }
   
   .hamburger:before,
