@@ -92,6 +92,86 @@ header {
 
 /* </header> */
 
+/* <burger menu> */
+
+.wrapper {
+    display: none;
+}
+menu{
+    list-style-type: none;
+    /* padding-top: 200px; */
+    margin: 0;
+  }
+  
+  .menu li{
+    display: inline-block;
+  }
+  
+  .menu li a{
+    display: none;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menuToggle{  
+      color: white;
+      padding: 10px 15px;
+      cursor: pointer;
+      display: none;
+  }
+  
+  
+  .icon {
+      width: 25px;
+      height: 25px;
+      cursor: pointer;
+  }
+  
+  .hamburger {
+      width: 30px;
+      height: 2px;
+      transform: translate(-50%, -50%);
+      background: white;
+      transition: 0.5s;
+      display: inline-block;
+      margin-left: 12px;
+  }
+  
+  .hamburger:before,
+  .hamburger:after {
+      content: "";
+      width: 30px;
+      height: 2px;
+      position: absolute;
+      background: white;
+      transition: 0.5s;
+  }
+  
+  .hamburger:before {
+      top: -9px;
+  }
+  
+  .hamburger:after {
+      top: 9px;
+  }
+  
+  .icon.active .hamburger {
+      background: rgba(0, 0, 0, 0);
+  }
+  
+  .icon.active .hamburger:before {
+      top: 0;
+      transform: rotate(45deg);
+  }
+  
+  .icon.active .hamburger:after {
+      top: 0;
+      transform: rotate(135deg);
+  }
+
+/* </burger menu> */
+
 
 /* <block1> */
 
@@ -118,6 +198,10 @@ header {
     font-weight: 500;
     font-size: 48px;
     line-height: 55px;
+    /* text-shadow: 1px 0 0px #4F5D66, 
+                0 1px 0px #4F5D66, 
+                -1px 0 0px #4F5D66, 
+                0 -1px 0px #4F5D66; */
 }
 
 .blok1_item p {
@@ -127,8 +211,8 @@ header {
 }
 
 .custom_btn {
-    margin-left: -30px;
-    width: auto;
+    margin-left: -90px;
+    width: 254px;
     min-height: 62px;
     background: #FF1709;
     /* background: radial-gradient(ellipse, #FF1709 80%, white); */
@@ -137,7 +221,7 @@ header {
     border-radius: 8px;
     box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.5);
 
-    padding: 17px 25px;
+    padding: 17px 10px;
  
     font-weight: bold;
     font-size: 17px;
@@ -150,8 +234,8 @@ header {
 }
 
 .input {
-    width: 20%;
-    min-height: 60px;
+    width: 337px;
+    height: 98%;
     border: 0;
     box-sizing: border-box;
     background: #F2F5F8;
@@ -171,6 +255,12 @@ input[type=text], input[type=tel], input[type=email] {
 
 .input[type=tel]::placeholder {
     color: #A1AFB8;
+}
+
+.forma_min {
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -204,14 +294,14 @@ input[type=text], input[type=tel], input[type=email] {
 }
 
 .box-info_position {
-    margin-left: 80px;
+    margin-left: 25%;
 }
 
 .box-info img {
     position: absolute;
     color: #4F5D66;
     left: 0px;
-    margin-right: 25px;
+    /* width: 23%; */
 }
 
 .box-info_color_size {
@@ -234,3 +324,11 @@ input[type=text], input[type=tel], input[type=email] {
 
 /* </block1> */
 
+/* blok2 */
+.blok2 {
+    background: url(../img/bg_block2.jpg) center top / cover;
+    width: 100%;
+    min-height: 850px;
+    color: white;
+}
+/* blok2 */
