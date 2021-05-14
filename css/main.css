@@ -69,7 +69,6 @@ header {
 
 .inline {
     display: flex;
-    /* align-items: center; */
 }
 
 .inline p {
@@ -199,10 +198,6 @@ menu{
     font-weight: 500;
     font-size: 48px;
     line-height: 55px;
-    /* text-shadow: 1px 0 0px #4F5D66, 
-                0 1px 0px #4F5D66, 
-                -1px 0 0px #4F5D66, 
-                0 -1px 0px #4F5D66; */
 }
 
 .blok1_item p {
@@ -264,7 +259,6 @@ input[type=text], input[type=tel], input[type=email] {
     align-items: center;
 }
 
-
 .box-info {
     position: relative;
     color: #4F5D66;
@@ -280,7 +274,7 @@ input[type=text], input[type=tel], input[type=email] {
     
     background: #FFFFFF;
     border-radius: 8px;
-    box-shadow: 0px 3px 10px 1px rgba(38, 60, 73, 0.5);
+    box-shadow: 0px 5px 15px rgba(0, 121, 175, 0.15);
 }
 
 .borber_inner {
@@ -326,10 +320,205 @@ input[type=text], input[type=tel], input[type=email] {
 /* </block1> */
 
 /* blok2 */
-.blok2 {
-    background: url(../img/bg_block2.jpg) center top / cover;
+.block2 {
+    background: url(../img/bg_block2.png) center top / cover;
     width: 100%;
-    min-height: 850px;
+    min-height: 912px;
+    color: #4F5D66;
+}
+
+.block2 a {
+    color: #4F5D66;
+}
+
+.block2__item {
+    margin-bottom: 36px;
+}
+
+.block2__item h2 {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 58px;
+    color: #263C49;
+    margin-bottom: 5px;
+}
+
+.block2__item p {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 300;
+}
+
+.block2__content {
+    padding-top: 100px;
+    
+}
+
+.block2__column {
+    display: flex;
+
+}
+
+.main_box {
+    position: relative;
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 121, 175, 0.15);
+    transition: .3s;
+}
+
+.border_box {
+    border-radius: 8px;
+    border: 1px solid rgba(38, 60, 73, 0.2);
+    padding-left: 10%;
+    flex: 1;
+}
+
+.border_box p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.flex_center {
+    display: flex;
+    align-items: center;
+}
+
+.box_size_s {
+    width: 100%;
+    min-height: 84px;
+    margin-bottom: 20px;
+}
+
+.box_size_s img {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    width: 25%;
+}
+
+.box_column {
+    width: 19%;
+}
+
+.box_size_l {
+    max-width: 1029px;
+    width: auto;
+    height: max-content;
+    margin-left: 30px;
+}
+
+.main_box_hover:hover {
+    transition: .6s;
+    background: rgb(178, 231, 255);   
+}
+
+.main_box_hover.active {
+    transition: .6s;
+    background: #0077AF;
+    
+}
+
+.main_box_hover.active .border_box{
+    transition: .1s;
+    border: 1px solid white;
     color: white;
 }
+
+.tab_content .border_box {
+    padding: 30px;
+}
+
+.tab_content .border_box img {
+    width: 35%;
+    min-height: 159px;
+    margin-right: 25px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.tab_content .img_check img {
+    width: 18px;
+    height: fit-content;
+    min-height: 18px;
+    top: 5px;
+    position: relative;
+    margin-right: 0;
+}
+
+.tab_content .custom_btn {
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.tab_content p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.size p {
+    font-size: 24px;
+    line-height: 35px;
+    color: #263C49;
+}
+
+.m_b_15 {
+    margin-bottom: 15px;
+}
+
+.m_b_10 {
+    margin-bottom: 10px;
+}
+
+.color_red_border {
+    color: #FF1708;
+    border-bottom: 2px dashed #FF1708;
+}
+
+/*  */
+.drop_dawn_box_size {
+    width: 100%;
+    height: max-content;
+    display: none;
+}
+
+.block2_drop_dawn .custom_btn {
+    margin: 0;
+}
+
+.block2_drop_dawn .border_box {
+    padding: 30px;
+}
+
+.block2_drop_dawn .main_box_hover img {
+    width: 56px;
+}
+/*  */
+
+
 /* blok2 */
+
+
+/* block3 */
+.block3 {
+    background: url(../img/bg_block3.jpg) center top / cover;
+    width: 100%;
+    min-height: 772px;
+    color: white;
+}
+/* block3 */
+
+/* block4 */
+.block4 {
+    background: url(../img/bg_block4.png) center top / cover;
+    background-color: #F5F9FC;
+    width: 100%;
+    min-height: 1677px;
+    color: white;
+}
+/* block4 */

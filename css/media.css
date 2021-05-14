@@ -79,6 +79,18 @@
     .box-info img {
         width: 23%;
     }
+
+    .border_box p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .size p {
+        font-size: 24px;
+        line-height: 35px;
+        color: #263C49;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -164,6 +176,14 @@
 
     .box-info_position {
         margin-left: 15%;
+    }
+
+    .tabs {
+        display: inline-flex;
+    }
+
+    .block2__column {
+        display: none;
     }
 }
 
