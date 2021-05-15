@@ -185,6 +185,9 @@
     .block2__column {
         display: none;
     }
+    .block2__content {
+        padding-top: 20px;
+    }
 
     .block2__item h2 {
         font-size: 40px;
