@@ -16,10 +16,9 @@ $(document).ready(function($) {
 $('.view-source .hide').hide();
 $a = $('.view-source a');
 $a.on('click', function(event) {
+  $('.block2_drop_dawn li' && '.main_box_hover').removeClass('active');
+  $(this).addClass('main_box_hover').addClass('active');
   event.preventDefault();
-  $a.not(this).next().slideUp(800);
-  $(this).next().slideToggle(800);
-  
-  // $(this).css("color", "#ffad81");
-  // $a.not(this).css("color", "#000");
+  $a.not(this).next().slideUp(200);
+  $(this).next().slideToggle(200);
 });

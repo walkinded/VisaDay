@@ -481,14 +481,19 @@ input[type=text], input[type=tel], input[type=email] {
 }
 
 /*  */
+
+.block2_drop_dawn {
+    display: none;
+}
 .drop_dawn_box_size {
     width: 100%;
     height: max-content;
     display: none;
+    margin-bottom: 30px;
 }
 
 .block2_drop_dawn .custom_btn {
-    margin: 0;
+    margin: 20px 0 0 0;
 }
 
 .block2_drop_dawn .border_box {
@@ -497,6 +502,19 @@ input[type=text], input[type=tel], input[type=email] {
 
 .block2_drop_dawn .main_box_hover img {
     width: 56px;
+}
+
+.block2_drop_dawn .border_box p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.block2_drop_dawn .size p {
+    font-size: 24px;
+    line-height: 35px;
+    color: #263C49;
+    margin: 0;
 }
 /*  */
 

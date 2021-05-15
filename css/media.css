@@ -185,6 +185,33 @@
     .block2__column {
         display: none;
     }
+
+    .block2__item h2 {
+        font-size: 40px;
+        line-height: 58px;
+    }
+    
+    .block2__item p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .block2_drop_dawn {
+        display: block;
+    }
+
+    .block2_drop_dawn .border_box p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .block2_drop_dawn .size p {
+        font-size: 20px;
+        line-height: 25px;
+        color: #263C49;
+        margin: 0;
+    }
 }
 
 @media only screen and (max-width : 550px) {
@@ -268,6 +295,11 @@
 
     .display_none {
         display: none;
+    }
+
+    .block2__item h2 {
+        font-size: 30px;
+        line-height: 30px;
     }
 }
 
