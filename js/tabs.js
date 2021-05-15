@@ -19,6 +19,6 @@ $a.on('click', function(event) {
   $('.block2_drop_dawn li' && '.main_box_hover').removeClass('active');
   $(this).addClass('main_box_hover').addClass('active');
   event.preventDefault();
-  $a.not(this).next().slideUp(100);
-  $(this).next().slideToggle(100);
+  $a.not(this).next().slideUp(0);
+  $(this).next().slideToggle(0);
 });
