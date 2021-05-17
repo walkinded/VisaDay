@@ -9,6 +9,10 @@
     .box-container {
         max-width: 1200px;
     }
+
+    .block3__content {
+        padding: 230px 0;
+    }
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -91,12 +95,26 @@
         line-height: 35px;
         color: #263C49;
     }
+
+    .block3__content {
+        padding: 30px 0;
+    }
+
+    .block3__item h2 {
+        font-weight: 400;
+        font-size: 44px;
+        color: #2262AA;;
+        line-height: 58px;
+        text-shadow: 1px 0 0px white,
+                     0 1px 0px white,
+                    1px 0 0px white,
+                    0 1px 0px white;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
     header {
-        position:absolute;
         width: 100%;
         padding: 15px 0;
     }
@@ -113,7 +131,7 @@
         display: none;
         width: 100%;
         padding-left: 10px;
-        background: rgba(38, 60, 73, 0.98);
+        /* background: rgba(38, 60, 73, 0.98); */
     }
 
     .menu li{
@@ -215,6 +233,26 @@
         color: #263C49;
         margin: 0;
     }
+
+    .block2 {
+        min-height: 0;
+    }
+
+    .block3__item h2 {
+        font-weight: 400;
+        font-size: 40px;
+        color: #2262AA;;
+        line-height: 58px;
+        text-shadow: 0px 0 0px #4f5d66,
+                     0 0px 0px #4f5d66,
+                    0px 0 0px #4f5d66,
+                    0 0px 0px #4f5d66;
+    }
+
+    .box_block3 {
+        box-shadow: 0px 5px 15px rgba(0, 121, 175, 0.15);
+    }
+
 }
 
 @media only screen and (max-width : 550px) {
@@ -303,6 +341,21 @@
     .block2__item h2 {
         font-size: 30px;
         line-height: 30px;
+    }
+
+    .block3__content {
+        padding: 50px 0;
+    }
+
+    .block3__item h2 {
+        font-weight: 400;
+        font-size: 30px;
+        color: #2262AA;;
+        line-height: 58px;
+        text-shadow: 0px 0 0px #4f5d66,
+                     0 0px 0px #4f5d66,
+                    0px 0 0px #4f5d66,
+                    0 0px 0px #4f5d66;
     }
 }
 

@@ -16,11 +16,19 @@ li {
 }
 
 header {
-    position:absolute;
+    position: fixed;
     width: 100%;
     padding: 40px 0;
 
     color: white;
+    transition: .5s;
+}
+
+.scrolled {
+    padding: 15px 0;
+    background: #2262AA;
+    z-index: 4;
+    transition: .5s;
 }
 
 .jcsb {
@@ -38,6 +46,10 @@ header {
 
 
 /* <header> */
+
+header img {
+    width: 70%;
+}
 
 .header_item li {
     margin-right: 30px;
@@ -96,36 +108,37 @@ header {
 .wrapper {
     display: none;
 }
-menu{
+.menu{
     list-style-type: none;
     /* padding-top: 200px; */
     margin: 0;
-  }
+    display: none;
+}
   
-  .menu li{
+.menu li{
     display: inline-block;
-  }
+}
   
-  .menu li a{
+.menu li a{
     display: none;
     padding: 10px 15px;
     color: white;
     text-decoration: none;
-  }
+}
   
-  .menuToggle{  
-      color: white;
-      padding: 10px 15px;
-      cursor: pointer;
-      display: none;
-  }
+.menuToggle{  
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: none;
+}
   
   
-  .icon {
-      width: 25px;
-      height: 25px;
-      cursor: pointer;
-  }
+.icon {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
   
   .hamburger {
       width: 30px;
@@ -138,37 +151,37 @@ menu{
       margin-bottom: 2px;
   }
   
-  .hamburger:before,
-  .hamburger:after {
-      content: "";
-      width: 30px;
-      height: 2px;
-      position: absolute;
-      background: white;
-      transition: 0.5s;
-  }
-  
-  .hamburger:before {
-      top: -9px;
-  }
-  
-  .hamburger:after {
-      top: 9px;
-  }
-  
-  .icon.active .hamburger {
-      background: rgba(0, 0, 0, 0);
-  }
-  
-  .icon.active .hamburger:before {
-      top: 0;
-      transform: rotate(45deg);
-  }
-  
-  .icon.active .hamburger:after {
-      top: 0;
-      transform: rotate(135deg);
-  }
+.hamburger:before,
+.hamburger:after {
+    content: "";
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    background: white;
+    transition: 0.5s;
+}
+
+.hamburger:before {
+    top: -9px;
+}
+
+.hamburger:after {
+    top: 9px;
+}
+
+.icon.active .hamburger {
+    background: rgba(0, 0, 0, 0);
+}
+
+.icon.active .hamburger:before {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+.icon.active .hamburger:after {
+    top: 0;
+    transform: rotate(135deg);
+}
 
 /* </burger menu> */
 
@@ -480,7 +493,7 @@ input[type=text], input[type=tel], input[type=email] {
     border-bottom: 2px dashed #FF1708;
 }
 
-/*  */
+/*  <drop dawn> */
 
 .block2_drop_dawn {
     display: none;
@@ -516,7 +529,7 @@ input[type=text], input[type=tel], input[type=email] {
     color: #263C49;
     margin: 0;
 }
-/*  */
+/* </drop dawn> */
 
 
 /* blok2 */
@@ -528,6 +541,62 @@ input[type=text], input[type=tel], input[type=email] {
     width: 100%;
     min-height: 772px;
     color: white;
+}
+
+.block3__content {
+    padding: 166px 0;
+}
+
+.block3__item {}
+
+.block3__item h2 {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 58px;
+}
+
+.block3__item .custom_btn {
+    width: auto;
+    margin: 0;
+}
+
+.btn_center {
+    margin: 40px 0 0 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.block3__column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box_block3 {
+    border-radius: 8px;
+    width: 246px;
+    min-height: 251px;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.3);
+    background: white;
+    margin: 33px auto 0 auto;
+}
+
+.box_block3 img {
+    border-radius: 8px 8px 0 0;
+    height: auto;
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+.bax_bg_p {
+    color: #263C49;
+    margin-top: 14px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
 }
 /* block3 */
 
