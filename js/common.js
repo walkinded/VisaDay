@@ -49,8 +49,10 @@ $(document).ready(function() {
     $(window).scroll(function() {
       if ($(this).scrollTop() > 100){
           $('header').addClass('scrolled');        
+          $('.menu').addClass('menu_scrolled'); 
       }else{
-          $('header').removeClass("scrolled");    
+          $('header').removeClass("scrolled");   
+          $('.menu').removeClass('menu_scrolled');  
         }
     });
     
