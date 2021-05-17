@@ -119,6 +119,14 @@
         padding: 15px 0;
     }
 
+    .header_item .inline p {
+        display: none;
+    }
+
+    header img {
+        width: 180px;
+    }
+
     /* <burger menu> */
     .wrapper {
         display: block;
@@ -245,6 +253,7 @@
 }
 
 @media only screen and (max-width : 550px) {
+
    .item_font-right {
        display: none;
    }
@@ -316,7 +325,7 @@
         font-weight: 400;
         font-size: 40px;
         color: white;
-        line-height: 58px;
+        line-height: 44px;
         text-shadow: 1px 0 1px #4f5d66,
                      0 1px 1px #4f5d66,
                     1px 0 1px #4f5d66,
@@ -366,12 +375,7 @@
     .block3__item h2 {
         font-weight: 400;
         font-size: 30px;
-        color: #2262AA;;
         line-height: 38px;
-        text-shadow: 0px 0 0px #4f5d66,
-                     0 0px 0px #4f5d66,
-                    0px 0 0px #4f5d66,
-                    0 0px 0px #4f5d66;
     }
 }
 
