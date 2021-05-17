@@ -598,6 +598,11 @@ input[type=text], input[type=tel], input[type=email] {
     line-height: 24px;
     text-align: center;
 }
+
+.block3__item_swiper {
+    flex-wrap: wrap;
+    display: none;
+}
 /* block3 */
 
 /* block4 */

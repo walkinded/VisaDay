@@ -241,12 +241,12 @@
     .block3__item h2 {
         font-weight: 400;
         font-size: 40px;
-        color: #2262AA;;
+        color: white;
         line-height: 58px;
-        text-shadow: 0px 0 0px #4f5d66,
-                     0 0px 0px #4f5d66,
-                    0px 0 0px #4f5d66,
-                    0 0px 0px #4f5d66;
+        text-shadow: 1px 0 1px #4f5d66,
+                     0 1px 1px #4f5d66,
+                    1px 0 1px #4f5d66,
+                    0 1px 1px #4f5d66;
     }
 
     .box_block3 {
@@ -306,6 +306,22 @@
         line-height: 17px;
         color: #4F5D66;
     }
+
+    .block3 {
+        min-height: 0;
+    }
+
+    .block3__item_swiper {
+        display: flex;
+    }
+
+    .block3__column {
+        display: none;
+    }
+
+    .swiper-wrapper {
+        margin-bottom: 30px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -351,7 +367,7 @@
         font-weight: 400;
         font-size: 30px;
         color: #2262AA;;
-        line-height: 58px;
+        line-height: 38px;
         text-shadow: 0px 0 0px #4f5d66,
                      0 0px 0px #4f5d66,
                     0px 0 0px #4f5d66,

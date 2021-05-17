@@ -26,7 +26,6 @@ $(document).ready(function() {
   
   
     // initialization Swiper
-    /*
     var swiper = new Swiper('.swiper-container', {
       speed: 800,
       autoHeight: true,
@@ -47,7 +46,6 @@ $(document).ready(function() {
       },
     });
     
-    */
     $(window).scroll(function() {
       if ($(this).scrollTop() > 100){
           $('header').addClass('scrolled');        
