@@ -227,7 +227,6 @@
 
     .custom_btn {
         margin: 10px 0 0 0;
-        padding: 10px 0;
     }
 
     .input {
@@ -339,6 +338,18 @@
         width: 40%;
         margin: 39px auto 0 auto;
     }
+
+    .block7__item_swiper {
+        display: block;
+    }
+
+    .block7__column {
+        display: none;
+    }
+    .fone_box .custom_btn {
+        margin: 20px 0 0 0;
+        padding: 10px;
+    }
 }
 
 @media only screen and (max-width : 550px) {
@@ -442,6 +453,12 @@
                     1px 0 1px #4f5d66,
                     0 1px 1px #4f5d66;
     }
+
+    .block7__item h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 40px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -526,6 +543,13 @@
     .block6__content {
         padding: 20px 0 20px 0;
     }
+
+    .fone_box .custom_btn {
+        margin: 40px auto 0 auto;
+    }
+    .fone_box {
+        padding: 20px;
+    }
 }
 
 /* Custom, iPhone Retina */
@@ -537,7 +561,7 @@
     .custom_btn {
         margin-top: 10px;
         width: 80%;
-        padding: 10px 0px;
+        padding: 10px;
     }
 
     .input {
