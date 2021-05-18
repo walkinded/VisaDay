@@ -126,6 +126,10 @@
         margin: 10px 0 10px 0;
         height: max-content;
     }
+
+    .block5__item h2 .display_none {
+        display: none;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -155,12 +159,12 @@
         display: none;
         width: 100%;
         padding-left: 10px;
-        background: rgba(38, 60, 73, 0.98);
+        background: #2262AA;
         transition: 0.5s;
     }
 
     .menu_scrolled {
-        background: rgba(38, 60, 73, 0.0);
+        background: #2262AA;
     }
 
     .menu li{
@@ -291,6 +295,11 @@
     .block4__content {
         padding-top: 50px;
     }
+
+    .block5__content .box-info {
+        width: 40%;
+        margin: 39px auto 0 auto;
+    }
 }
 
 @media only screen and (max-width : 550px) {
@@ -372,6 +381,18 @@
                     1px 0 1px #4f5d66,
                     0 1px 1px #4f5d66;
     }
+
+    .block5__item h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 45px;
+        color: #263C49;
+    }
+
+    .block5__content .box-info {
+        width: 100%;
+        margin: 39px auto 0 auto;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -424,6 +445,16 @@
         font-size: 30px;
         line-height: 35px;
         margin-bottom: 79px;
+    }
+
+    .display_none {
+        display: none;
+    }
+
+    .borber_inner_forma .custom_btn {
+        margin: 0;
+        margin-top: 30px;
+        font-size: 14px;
     }
 }
 

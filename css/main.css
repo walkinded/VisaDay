@@ -564,6 +564,7 @@ textarea::placeholder {
 .block3__item .custom_btn {
     width: auto;
     margin: 0;
+    padding: 0 15px;
 }
 
 .btn_center {
@@ -706,7 +707,7 @@ textarea {
     font-weight: 300;
 }
 
-.checkbox_font p{
+.checkbox_font a{
     font-weight: 200;
     font-size: 14px;
     line-height: 30px;
@@ -714,6 +715,10 @@ textarea {
     color: #B6B6B6;
 
     height: max-content;
+}
+
+.checkbox_font a:hover{
+    color: #8d8d8d;
 }
 
 .checkbox .imput_checkbox {
@@ -770,11 +775,11 @@ input[type=checkbox]{
   .checkmark::after {
     content: "";
     position: absolute;
-    display: block;
+    display: none;
   }
   
   .container input:checked ~ .checkmark::after {
-    display: none;
+    display: block;
   }
   
   .container .checkmark::after {
@@ -834,8 +839,59 @@ input[type=checkbox]{
     display: flex;
 }
 
+.display_none {
+    display: block;
+}
+
 .border_box_position {
     margin: 10px auto 10px 0;
     height: max-content;
 }
 /* block4 */
+
+/* <block5> */
+.block5 {
+    background: url(../img/bg_block5.jpg) center top / cover;
+    width: 100%;
+    min-height: 703px;
+    color: white;
+}
+.block5__content {
+    padding: 54px 0 50px 0;
+}
+.block5__item {}
+
+.block5__item h2 {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 55px;
+    color: #263C49;
+}
+.block5__column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.block5__content .box-info_color_size {
+    display: flex;
+}
+
+.block5__content .box-info_position {
+    margin-left: 30px;
+}
+
+.block5__content .box-info {
+    width: 30%;
+    margin: 39px auto 0 0;
+}
+
+.dash {
+    position: relative;
+    width: 25px;
+    height: 2px;
+    top: 13px;
+    margin-right: 16px;
+    background: #0077AF;
+}
+/* </block5> */
