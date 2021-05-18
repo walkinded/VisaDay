@@ -110,6 +110,22 @@
                     1px 0 0px white,
                     0 1px 0px white;
     }
+
+    .block4__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block4_border_box {
+        width: auto;
+        min-height: 329.25px;
+        margin-left: 0;
+        padding: 20px 40px;
+    }
+    .border_box_position {
+        margin: 10px 0 10px 0;
+        height: max-content;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -255,6 +271,25 @@
         box-shadow: 0px 5px 15px rgba(0, 121, 175, 0.15);
     }
 
+
+
+    textarea {
+        width: 80%;
+    }
+
+    .forma {
+        width: auto;
+        height: 598px;
+        padding: 10px;
+        background: #FBFDFF;
+        box-shadow: 0px 5px 15px rgb(0 121 175 / 15%);
+        border-radius: 8px;
+        display: flex;
+    }
+
+    .block4__content {
+        padding-top: 50px;
+    }
 }
 
 @media only screen and (max-width : 550px) {
@@ -381,6 +416,13 @@
         font-weight: 400;
         font-size: 30px;
         line-height: 38px;
+    }
+
+    .block4__item h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 79px;
     }
 }
 

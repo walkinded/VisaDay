@@ -262,7 +262,9 @@ input[type=text], input[type=tel], input[type=email] {
     font-weight: 300;
 }
 
-.input[type=tel]::placeholder {
+.input[type=tel]::placeholder,
+.input[type=text]::placeholder,
+textarea::placeholder {
     color: #A1AFB8;
 }
 
@@ -493,6 +495,10 @@ input[type=text], input[type=tel], input[type=email] {
     border-bottom: 2px dashed #FF1708;
 }
 
+.color_red {
+    color: #FF1708;
+}
+
 /*  <drop dawn> */
 
 .block2_drop_dawn {
@@ -610,7 +616,222 @@ input[type=text], input[type=tel], input[type=email] {
     background: url(../img/bg_block4.png) center top / cover;
     background-color: #F5F9FC;
     width: 100%;
-    min-height: 1677px;
-    color: white;
+    min-height: 895px;
+    color: #263C49;
+}
+
+.block4__content {
+    padding-top: 150px;
+    display: flex;
+    margin: auto;
+}
+
+.block4__content p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 27px;
+}
+
+
+.block4__item {
+    
+}
+
+
+.block4__item h2 {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 55px;
+    margin-bottom: 79px;
+}
+
+.forma {
+    width: 430px;
+    height: 598px;
+    padding: 10px;
+
+    background: #FBFDFF;
+    box-shadow: 0px 5px 15px rgba(0, 121, 175, 0.15);
+    border-radius: 8px;
+    display: flex;
+}
+
+.borber_inner_forma {
+    padding-top: 30px;
+    border-radius: 8px;
+    border: 1px solid rgba(38, 60, 73, 0.2);
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.borber_inner_forma input {
+    height: 65px;
+    margin-top: 31px;
+}
+
+.borber_inner_forma .custom_btn {
+    margin: 0;
+    margin-top: 30px;
+}
+
+.borber_inner_forma input[type=text],
+.borber_inner_forma input[type=tel],
+.borber_inner_forma input[type=email] {
+    padding-left: 20px;
+}
+textarea {
+    margin-top: 30px;
+    width: 337px;
+    height: 91px;
+    box-sizing: border-box;
+    background: #F2F5F8;
+    border: 0;
+    border-radius: 8px;
+    resize: none;
+
+    padding: 20px;
+    font-size: 16px;
+    line-height: 121.3%;
+    letter-spacing: 0.05em;
+    color: #A1AFB8;
+    font-family: 'FFNort';
+    font-weight: 300;
+}
+
+.checkbox_font p{
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #B6B6B6;
+
+    height: max-content;
+}
+
+.checkbox .imput_checkbox {
+    margin: 0 8px 0 0;
+    height: auto;
+}
+
+input[type=checkbox]{
+	content: "\2713";
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+	font-size: 15px;
+	color: #f3f3f3;
+	text-align: center;
+    line-height: 15px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+
+    margin-top: 30px;
+}
+
+
+/*  */
+.container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+  }
+  
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    left: 10px;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(158, 158, 158, 0);
+    border: 1px solid #FF1708;
+  }
+  
+
+  .checkmark::after {
+    content: "";
+    position: absolute;
+    display: block;
+  }
+  
+  .container input:checked ~ .checkmark::after {
+    display: none;
+  }
+  
+  .container .checkmark::after {
+    left: 4px;
+    top: 0px;
+    width: 6px;
+    height: 10px;
+    border: solid #FF1708;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+/*  */
+
+.color_red_inline_border {
+    color: #FF1708;
+    border-bottom: 1px solid #FF1708;
+}
+
+.block4_border_box {
+    border-top: 1px dashed #B7D9FF ;
+    border-bottom: 1px dashed #B7D9FF ;
+    border-left: 1px dashed #B7D9FF ;
+    border-radius: 8px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    min-height: 329.25px;
+    margin-left: -40px;
+
+    padding: 20px 40px;
+}
+
+.block4_border_box span {
+    font-size: 80px;
+    line-height: 58px;
+    color: #E3EEF4;
+    margin-right: 24px;
+}
+
+.width_size_font p {
+    max-width: 350px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F5D66;
+
+    margin-top: 8px;
+}
+
+.display_flex {
+    display: flex;
+}
+
+.border_box_position {
+    margin: 10px auto 10px 0;
+    height: max-content;
 }
 /* block4 */
