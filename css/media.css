@@ -13,6 +13,16 @@
     .block3__content {
         padding: 230px 0;
     }
+    .block6__column .box-info {
+        top:30px;
+        left: 23%;
+        width: 402px;
+    }
+    .block6__content {
+        padding: 150px 0 0 0;
+        display: flex;
+        justify-content: space-between;
+    }
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -38,6 +48,11 @@
                     0 1px 0px #4F5D66, 
                     -1px 0 0px #4F5D66, 
                     0 -1px 0px #4F5D66;
+    }
+
+    .block6__column .box-info {
+        left: 13%;
+        width: 402px;
     }
 }
 
@@ -127,8 +142,32 @@
         height: max-content;
     }
 
+    .block5 {
+        background: url(../img/bg_block5.jpg) center top / cover;
+        width: 100%;
+        min-height: max-content;
+        color: white;
+    }
+
     .block5__item h2 .display_none {
         display: none;
+    }
+
+    .block6__content {
+        padding: 185px 0 0 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .block6__column .box-info {
+        position: initial;
+        width: 402px;
+        margin: 30px auto 30px auto;
+        
+        background: rgba(252, 252, 252, .85);
+        box-shadow: 0px 5px 15px rgba(0, 121, 175, 0.15);
+        border-radius: 8px;
     }
 }
 
@@ -284,7 +323,7 @@
 
     .forma {
         width: auto;
-        height: 598px;
+        height: auto;
         padding: 10px;
         background: #FBFDFF;
         box-shadow: 0px 5px 15px rgb(0 121 175 / 15%);
@@ -393,6 +432,16 @@
         width: 100%;
         margin: 39px auto 0 auto;
     }
+
+    .block6__item h2 {
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 45px;
+        text-shadow: 1px 0 1px #4f5d66,
+                     0 1px 1px #4f5d66,
+                    1px 0 1px #4f5d66,
+                    0 1px 1px #4f5d66;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -455,6 +504,27 @@
         margin: 0;
         margin-top: 30px;
         font-size: 14px;
+    }
+    .checkbox {
+        padding: 0 20px;
+    }
+
+    .block6__column .box-info {
+        position: initial;
+        width: auto;
+        margin: 30px auto 30px auto;
+        background: rgba(252, 252, 252, .85);
+        box-shadow: 0px 5px 15px rgb(0 121 175 / 15%);
+        border-radius: 8px;
+    }
+
+    .block6__column .borber_inner {
+        border: 1px solid rgb(255, 255, 255);
+        padding: 20px 0;
+    }
+
+    .block6__content {
+        padding: 20px 0 20px 0;
     }
 }
 
