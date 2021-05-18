@@ -609,6 +609,10 @@ textarea::placeholder {
     flex-wrap: wrap;
     display: none;
 }
+
+.swiper-pagination .swiper-pagination-bullet {
+    background-color: white;
+}
 /* block3 */
 
 /* block4 */
@@ -647,7 +651,7 @@ textarea::placeholder {
 
 .forma {
     width: 430px;
-    height: 598px;
+    height: auto;
     padding: 10px;
 
     background: #FBFDFF;
