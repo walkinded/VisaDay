@@ -350,6 +350,10 @@
         margin: 20px 0 0 0;
         padding: 10px;
     }
+
+    .border_img {
+        display: none;
+    }
 }
 
 @media only screen and (max-width : 550px) {
@@ -459,6 +463,11 @@
         font-size: 30px;
         line-height: 40px;
     }
+
+    .block8__item h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -550,6 +559,14 @@
     .fone_box {
         padding: 20px;
     }
+
+    .block8__item .custom_btn {
+        font-size: 14px;
+    }
+
+    .block8__content {
+        padding: 154px 0 68px 0;
+    }
 }
 
 /* Custom, iPhone Retina */
@@ -560,7 +577,6 @@
 
     .custom_btn {
         margin-top: 10px;
-        width: 80%;
         padding: 10px;
     }
 
