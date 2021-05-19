@@ -412,6 +412,11 @@
     .slider__box {
         margin-bottom: 30px;
     }
+
+    .comment {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width : 550px) {
