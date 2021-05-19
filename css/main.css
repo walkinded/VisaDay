@@ -1336,6 +1336,13 @@ input[type=checkbox]{
 
 /*  */
 
+.block9 {
+    background: url(../img/bg_block5.jpg) center top / cover;
+    width: 100%;
+    min-height: max-content;
+    color: white;
+}
+
 .block9__content {
     padding: 0 0 70px 0;
 }

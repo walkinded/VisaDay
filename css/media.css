@@ -355,10 +355,10 @@
         padding: 10px;
     }
 
-    .slider__box .inline {
+    /* .slider__box .inline {
         display: flex;
         flex-direction: column;
-    }
+    } */
 
     .swiper-button-next::after,
     .swiper-button-prev::after {
@@ -407,6 +407,10 @@
     .footer_content li a,
     .footer_content p {
         font-size: 14px;
+    }
+
+    .slider__box {
+        margin-bottom: 30px;
     }
 }
 
@@ -562,6 +566,10 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .slider__box {
+        margin-bottom: 0;
     }
 }
 
