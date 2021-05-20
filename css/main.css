@@ -922,7 +922,7 @@ input[type=checkbox]{
     height: 15px;
     width: 15px;
     background-color: rgb(158, 158, 158, 0);
-    border: 1px solid #FF1708;
+    border: 1px solid grey;
   }
   
 
@@ -941,7 +941,7 @@ input[type=checkbox]{
     top: 0px;
     width: 6px;
     height: 10px;
-    border: solid #FF1708;
+    border: solid grey;
     border-width: 0 1px 1px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
