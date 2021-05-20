@@ -619,8 +619,8 @@ textarea::placeholder {
     border-bottom: 2px dashed #FF1708;
 }
 
-.red_border {
-    border-bottom: 1px solid #FF1708;
+.grey_border {
+    border-bottom: 1px solid grey;
 }
 
 .color_red {
