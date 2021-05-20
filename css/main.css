@@ -201,6 +201,8 @@ footer {
 
 /* </header> */
 
+
+
 /* <burger menu> */
 
 .wrapper {
@@ -617,6 +619,10 @@ textarea::placeholder {
     border-bottom: 2px dashed #FF1708;
 }
 
+.red_border {
+    border-bottom: 1px solid #FF1708;
+}
+
 .color_red {
     color: #FF1708;
 }
@@ -855,7 +861,8 @@ textarea {
     font-weight: 300;
 }
 
-.checkbox_font a{
+.checkbox_font a,
+.checkbox_font p{
     font-weight: 200;
     font-size: 14px;
     line-height: 30px;
@@ -1043,7 +1050,7 @@ input[type=checkbox]{
 }
 /* </block5> */
 
-/*  */
+/* <block6> */
 .block6 {
     background: url(../img/bg_block6.jpg) center top / cover;
     width: 100%;
@@ -1116,9 +1123,9 @@ input[type=checkbox]{
     width: 16px;
     margin-top: 7px;
 }
-/*  */
+/* </block6> */
 
-/*  */
+/* <block7> */
 .block7 {
     background: url(../img/bg_block7.png) left top / cover;
     width: 100%;
@@ -1237,9 +1244,9 @@ input[type=checkbox]{
     display: none;
 }
 
-/*  */
+/* </block7> */
 
-/*  */
+/* <block8>  */
 .block8 {
     background: url(../img/bg_block8.jpg) left top / cover;
     width: 100%;
@@ -1332,9 +1339,9 @@ input[type=checkbox]{
 .block8 .slider__box {
     margin-bottom: 30px;
 }
-/*  */
+/* </block8> */
 
-/*  */
+/* <block9> */
 
 .block9 {
     background: url(../img/bg_block5.jpg) center top / cover;
@@ -1522,4 +1529,4 @@ input[type=checkbox]{
     transition: .3s;
 }
 
-/*  */
+/* </block9> */
