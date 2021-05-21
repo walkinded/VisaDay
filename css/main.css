@@ -24,6 +24,10 @@ header {
     transition: .5s;
 }
 
+.header__bg_color {
+    background: #2262AA;
+}
+
 .scrolled {
     padding: 15px 0;
     background: #2262AA;
@@ -741,32 +745,29 @@ textarea::placeholder {
 .swiper-pagination .swiper-pagination-bullet {
     background-color: #FF1708;
 }
-
-.swiper-button-next::after {
-    line-height: 0;
-    color: rgb(158, 158, 158, 0);
-    width: 50px;
-    background: url(../img/block8/arrowRight.svg) center top / cover;
+.swiper-button-next {
+    background-image: url(../img/block8/arrowRight.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    left: -50px;
 }
 
+.swiper-button-prev{
+    background-image: url(../img/block8/arrowLeft.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.swiper-button-next::after,
 .swiper-button-prev::after {
-    line-height: 0;
-    color: rgb(158, 158, 158, 0);
-    width: 50px;
-    background: url(../img/block8/arrowLeft.svg) center top / cover;
+    display: none;
 }
+
 .swiper-button-next, .swiper-button-prev {
-    position: absolute;
-    top: 50%;
-    min-width: 50px;
-    height: var(--swiper-navigation-size);
-    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
-    z-index: 10;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--swiper-navigation-color,var(--swiper-theme-color));
+    min-width: 60px;
+    min-height: 60px;
 }
 /* block3 */
 
@@ -1255,11 +1256,15 @@ input[type=checkbox]{
 }
 
 .block8__content {
-    padding: 120px 0 194px 0;
+    padding: 130px 0 194px 0;
 }
 
 .block8__item {
 
+}
+
+.comment {
+    margin: 0 90px;
 }
 
 .block8__item h2 {
@@ -1530,3 +1535,127 @@ input[type=checkbox]{
 }
 
 /* </block9> */
+
+
+/* <About Us> */
+
+.about-company {
+    background: url(../img/aboutCompanyHtml/bg_block1.png) center top / cover;
+    width: 100%;
+    min-height: max-content;
+}
+.about-company__content {
+    padding: 228px 0 60px 0;
+
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    font-weight: 300;
+}
+
+.about-company__item h2 {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 58px;
+    color: #263C49;
+
+    margin-bottom: 27px;
+}
+
+.about-company_inline {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.text_container {
+    max-width: 776px;
+}
+
+.li_dot {
+    margin: 15px 0;
+}
+
+.li_dot li:before {
+    font-weight: 500;
+    color: #2262AA; /* Цвет маркера */
+    content: "•"; /* Маркер */
+    padding-right: 7px; /* Отступ от маркера до текста */
+}
+
+.about-company__img_box {
+    width: 50%;
+    height: 372px;
+
+    box-shadow: 0px 5px 15px rgba(52, 155, 202, 0.1);
+    border-radius: 8px;
+
+    margin-left: 10px;
+}
+
+.about-company__img_box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    display: flex;
+   
+}
+
+.partner {
+    background: url(../img/bg_block5.jpg) top / cover;
+    width: 100%;
+    height: max-content;
+
+    padding: 70px 0;
+}
+
+.partner__item h2{
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 58px;
+    color: #263C49;
+
+    margin-bottom: 30px;
+}
+
+
+.partner .box-info:last-child {
+    width: 430px;
+    height: 162.84px;
+    margin-right: 0px;
+}
+
+.partner .box-info img {
+    position: initial;
+    width: 60%;
+}
+
+.partner .borber_inner {
+    height: 100%;
+    align-items: center;
+}
+
+.slider__box {
+   min-height: 200px;
+}
+
+
+.swiper-wrapper{
+    /* max-width: 1200px; */
+    margin: 0 auto;
+}
+
+.continer_swiper {
+    display: flex;
+}
+
+.about-company .block5__content {
+    padding: 0;
+}
+
+.modal-div {
+    display: none;
+    z-index: 9;
+}
+/* </About Us> */

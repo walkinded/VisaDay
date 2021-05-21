@@ -58,6 +58,10 @@
     .display_none1 {
         display: none;
     }
+
+    .text_container {
+        max-width: 576px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -172,6 +176,13 @@
         background: rgba(252, 252, 252, .85);
         box-shadow: 0px 5px 15px rgba(0, 121, 175, 0.15);
         border-radius: 8px;
+    }
+    .text_container {
+        max-width: 476px;
+    }
+
+    .about-company__content {
+        padding: 150px 0 60px 0;
     }
 }
 
@@ -355,14 +366,9 @@
         padding: 10px;
     }
 
-    /* .slider__box .inline {
-        display: flex;
-        flex-direction: column;
-    } */
-
-    .swiper-button-next::after,
-    .swiper-button-prev::after {
-        display: none;
+    .swiper-button-next, 
+    .swiper-button-prev {
+        background-image: none;
     }
 
     .border_img {
@@ -416,6 +422,44 @@
     .comment {
         display: flex;
         flex-direction: column;
+        margin: 0;
+    }
+
+    .about-company_inline {
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .about-company__img_box {
+        width: 55%;
+        height: auto;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .about-company__content {
+        padding: 110px 0 60px 0;
+    }
+
+    .about-company__item h2 {
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .partner__item h2 {
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .partner {
+        padding: 10px 0;
+    }
+
+    .block8__content {
+        padding: 120px 0 20px 0;
     }
 }
 
@@ -576,6 +620,27 @@
     .slider__box {
         margin-bottom: 0;
     }
+
+    .about-company__item h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .about-company__content {
+        padding: 110px 0 60px 0;
+        font-size: 14px;
+        line-height: 24px;
+        color: #333333;
+        font-weight: 300;
+    }
+
+    .partner__item h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -674,6 +739,13 @@
 
     .block8__content {
         padding: 154px 0 68px 0;
+    }
+
+    .about-company__img_box {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-bottom: 10px;
     }
 }
 

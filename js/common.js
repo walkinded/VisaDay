@@ -23,6 +23,12 @@ $(document).ready(function() {
         $(".menuToggle").toggleClass("active");
       }
     });
+
+    //Попап менеджер FancyBox
+    //Документация: http://fancybox.net/howto
+    //<a class="fancybox"><img src="image.jpg" /></a>
+    //<a class="fancybox" data-fancybox-group="group"><img src="image.jpg" /></a>
+    $(".fancybox").fancybox();
   
   
     // initialization Swiper
@@ -43,6 +49,33 @@ $(document).ready(function() {
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
+      },
+    });
+
+     // initialization Swiper
+     var swiper = new Swiper('.partner .swiper-container', {
+      speed: 800,
+      autoHeight: true,
+      spaceBetween: 30,
+      slidesPerView: 1,
+      loop: true,
+      grabCursor: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 3,
+        },
       },
     });
     
