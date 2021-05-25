@@ -780,4 +780,10 @@
         line-height: 17px;
         color: #4F5D66;
     }
+
+    .about-company__item h2 {
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 40px;
+    }
 }
