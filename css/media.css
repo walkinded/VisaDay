@@ -463,6 +463,10 @@
         font-size: 35px;
         line-height: 40px;
     }
+
+    .last_news__content {
+        margin: 15px 0 33px 0;
+    }
 }
 
 @media only screen and (max-width : 550px) {
