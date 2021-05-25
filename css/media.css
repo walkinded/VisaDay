@@ -465,7 +465,11 @@
     }
 
     .last_news__content {
-        margin: 15px 0 33px 0;
+        margin: 25px 0 33px 0;
+    }
+
+    .last_news__item .box_news_large {
+        margin: 20px auto 0 auto;
     }
 }
 
