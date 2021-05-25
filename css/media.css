@@ -180,10 +180,6 @@
     .text_container {
         max-width: 476px;
     }
-
-    .about-company__content {
-        padding: 150px 0 60px 0;
-    }
 }
 
 /* Small Devices, Tablets */
@@ -438,9 +434,6 @@
         margin-bottom: 10px;
     }
 
-    .about-company__content {
-        padding: 110px 0 60px 0;
-    }
 
     .about-company__item h2 {
         font-weight: 500;
@@ -460,6 +453,10 @@
 
     .block8__content {
         padding: 120px 0 20px 0;
+    }
+
+    .breadcrumb {
+        padding-top: 90px;
     }
 }
 
@@ -628,7 +625,6 @@
     }
 
     .about-company__content {
-        padding: 110px 0 60px 0;
         font-size: 14px;
         line-height: 24px;
         color: #333333;

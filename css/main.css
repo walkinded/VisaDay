@@ -1546,13 +1546,58 @@ input[type=checkbox]{
 
 /* <About Us> */
 
+.breadcrumb {
+    width: 100%;
+    height: 38px;
+    border-bottom: 1px solid #DDDDDD;
+    padding-top: 140px;
+}
+
+.breadcrumb ol {
+    display: flex;
+}
+
+.breadcrumb li {
+    margin-right: 20px;
+}
+
+.breadcrumb_font_style:last-child  {
+    color: #919191;
+}
+
+.breadcrumb_font_style {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: #BFBFBF;
+}
+
+.breadcrumb a {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: #BFBFBF;
+}
+
+.breadcrumb a:hover {
+    border-bottom: 1px solid #BFBFBF;
+}
+
+.span_m_l_20 {
+    margin-left: 20px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: #BFBFBF;
+}
+
 .about-company {
     background: url(../img/aboutCompanyHtml/bg_block1.png) center top / cover;
     width: 100%;
     min-height: max-content;
 }
 .about-company__content {
-    padding: 228px 0 60px 0;
+    padding: 57px 0 60px 0;
 
     font-size: 16px;
     line-height: 24px;
