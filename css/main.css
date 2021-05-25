@@ -5,6 +5,10 @@
 
 body {
     font-family: 'FFNort';
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 a {
@@ -99,6 +103,7 @@ footer {
 
     font-size: 16px;
     line-height: 32px;
+    flex-shrink: 1;
 }
 
 .footer_content {
@@ -1723,7 +1728,20 @@ input[type=checkbox]{
 
 
 /* <Last news> */
-.last_news {}
+.last_news {
+    /* background: url(../img/lastNews/bg_img.png) center top / cover; */
+    width: 100%;
+    /* height: max-content; */
+    flex: 1;
+}
+
+.bg_image {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
 .last_news__content {
     margin: 56px 0 33px 0;
 }
@@ -1770,6 +1788,10 @@ input[type=checkbox]{
     justify-content: center;
 }
 
+.paginator li:last-child {
+    margin-right: 0px;
+}
+
 .paginator li:hover  {
     transition: .5s;
     background: #2262AA;
@@ -1796,6 +1818,7 @@ input[type=checkbox]{
     background: #2262AA;
     color: white;
 }
+
 .paginator li .prev:hover ,
 .paginator li .next:hover{
     background: white;
