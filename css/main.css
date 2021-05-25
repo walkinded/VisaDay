@@ -1587,9 +1587,6 @@ input[type=checkbox]{
 }
 
 .breadcrumb a {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 18px;
     color: #BFBFBF;
 }
 
@@ -1825,3 +1822,146 @@ input[type=checkbox]{
     /* box-shadow: 0px 10px 20px rgba(0, 121, 175, 0.7); */
 }
 /* </Last news> */
+
+
+/* <> */
+.article {
+    flex: 1;
+}
+
+.article__content {
+    margin: 56px 0 50px 0;
+}
+.article__item {}
+
+.article__item h1 {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 58px;
+    color: #263C49;
+
+    margin-bottom: 30px;
+}
+
+.article_container {
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.post_img {
+    max-width: 898px;
+    height: max-content;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.post_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.date {
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+    width: 80px;
+    height: 83px;
+    background: #2262AA;
+    border-radius: 8px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.day {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.article_text {
+    max-width: 898px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #263C49;
+
+    margin-bottom: 20px;
+}
+
+.article_text li {
+    max-width: 400px;
+    margin-bottom: 18px;
+    margin-right: 30px;
+}
+
+.article_text li img {
+    height: max-content;
+}
+
+.article_title h2 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 50px;
+    color: #263C49;
+
+    margin-bottom: 10px;
+}
+
+.circle {
+    min-width: 25px;
+    max-height: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    border: 1px solid #01569B;
+    
+    color: #01569B;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.wrapper1 {
+    max-width: 392px;
+    min-height: 1421px;
+
+    box-shadow: 0px 5px 15px rgba(0, 121, 175, 0.15);
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 30px;
+
+    margin-left: 20px;
+}
+
+.wrapper1 .box_news_container {
+    padding: 0;
+}
+
+.box_news_line {
+    margin-top: 30px;
+    width: 100%;
+    max-height: 1px;
+    background: #575757;
+}
+
+.wrapper1 .box_news_large:hover {
+    transition: .5s;
+    box-shadow: 0px 5px 15px rgba(0, 121, 175, 0.0);
+}
+/* </> */
