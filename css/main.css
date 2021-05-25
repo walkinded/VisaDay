@@ -1409,6 +1409,7 @@ input[type=checkbox]{
     height: max-content;
     border-radius: 8px;
     padding-bottom: 20px;
+    background-color: white;
 }
 
 .box_news_large:hover {
@@ -1441,6 +1442,13 @@ input[type=checkbox]{
     font-size: 24px;
     line-height: 35px;
     color: #263C49;
+    transition: 0.3s;
+}
+
+.title a:hover{
+    transition: 0.5s;
+    border-bottom: 1px solid #FF1709;
+    color: #FF1709;
 }
 
 .subtitle {
@@ -1450,6 +1458,7 @@ input[type=checkbox]{
     font-weight: 300;
     font-size: 16px;
     line-height: 24px;
+    color: #263C49;
 }
 
 .box_news_large .btn_all_news img {
@@ -1711,3 +1720,31 @@ input[type=checkbox]{
     z-index: 9;
 }
 /* </About Us> */
+
+
+/* <Last news> */
+.last_news {}
+.last_news__content {
+    margin: 56px 0 33px 0;
+}
+.last_news__item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.last_news__item h2 {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 58px;
+    color: #263C49;
+}
+
+.last_news__item .box_news_large {
+
+    margin: 33px auto 0 auto;
+}
+
+.last_news__item .box_news_large .subtitle {
+    max-width: 370px;
+}
+/* </Last news> */
