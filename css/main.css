@@ -368,6 +368,13 @@ textarea::placeholder {
     flex-direction: column;
 }
 
+.borber_inner_title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 27px;
+    color: #263C49;
+}
+
 .box-info_position {
     margin-left: 25%;
 }
@@ -755,7 +762,7 @@ textarea::placeholder {
 }
 
 .borber_inner_forma {
-    padding: 30px 0 20px 0;
+    padding: 30px 10px 20px 10px;
     border-radius: 8px;
     border: 1px solid rgba(38, 60, 73, 0.2);
     flex: 1;
@@ -1940,6 +1947,41 @@ input[type=checkbox]{
     flex: 1;
 
     padding-bottom: 70px;
+}
+/*  */
+
+/*  */
+.legal_entities {
+    flex: 1;
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #263C49;
+}
+
+.legal_entities_container {
+    max-width: 850px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.legal_entities_description {
+    margin-bottom: 25px;
+}
+
+.legal_entities_container li {
+    margin-bottom: 22px;
+}
+
+.legal_entities_container li img {
+    height: max-content;
+}
+
+.legal_entities__column {
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
 }
 /*  */
 

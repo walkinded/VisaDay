@@ -594,6 +594,13 @@
         display: flex;
     }
 
+    .legal_entities__column {
+        display: flex;
+        justify-content: initial;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 
 @media only screen and (max-width : 550px) {
@@ -822,6 +829,10 @@
     }
 
     .visa_other_countres {
+        padding-bottom: 30px;
+    }
+
+    .legal_entities__column {
         padding-bottom: 30px;
     }
 }
