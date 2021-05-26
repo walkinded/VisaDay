@@ -1932,3 +1932,14 @@ input[type=checkbox]{
 }
 /* </services> */
 
+/*  */
+.visa_other_countres {
+    background: url(../img/visaToOther/bg_img.png) center top / cover;
+    width: 100%;
+    height: max-content;
+    flex: 1;
+
+    padding-bottom: 70px;
+}
+/*  */
+

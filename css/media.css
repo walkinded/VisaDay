@@ -590,6 +590,10 @@
         padding: 20px;
     }
 
+    .visa_other_countres .block7__column {
+        display: flex;
+    }
+
 }
 
 @media only screen and (max-width : 550px) {
@@ -744,6 +748,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        padding-bottom: 20px;
     }
 
     .slider__box {
@@ -814,6 +819,10 @@
 
     .services {
         margin-bottom: 20px;
+    }
+
+    .visa_other_countres {
+        padding-bottom: 30px;
     }
 }
 
