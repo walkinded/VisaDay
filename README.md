@@ -9,3 +9,5 @@
 Последние новости: https://walkinded.github.io/VisaDay/latestNews.html
 
 Статьи: https://walkinded.github.io/VisaDay/article.html
+
+Наши услуги: https://walkinded.github.io/VisaDay/services.html
