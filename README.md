@@ -13,3 +13,5 @@
 Наши услуги: https://walkinded.github.io/VisaDay/services.html
 
 Виза в другие страны: https://walkinded.github.io/VisaDay/visaToOtherCountries.html
+
+Юридическим лицам: https://walkinded.github.io/VisaDay/legalEntities.html
