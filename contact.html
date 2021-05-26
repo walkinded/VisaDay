@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="css/media.css" />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     
-    <title>Юридическим лицам</title>
+    <title>Контакты</title>
 </head>
 <body>
     <header class="header__bg_color">
@@ -111,45 +111,72 @@
                     <span class="span_m_l_20">/</span>
                 </li>
                 <li>
-                    <span class="breadcrumb_font_style">Юридическим лицам</span>
+                    <span class="breadcrumb_font_style">Контакты</span>
                 </li>
             </ol>
         </div>
     </section>
 
-   <section class="legal_entities">
+   <section class="contact">
     <div class="box-container">
-        <div class="legal_entities__content">
+        <div class="contact__content">
             <div class="services__item">
-                <h1>Юридическим лицам</h1>
+                <h1>Контакты</h1>
             </div>
 
-            <div class="legal_entities__item">
-                <div class="legal_entities__column">
-                    <div class="legal_entities_container">
-                        <div class="legal_entities_description">
-                            <p>Сервисный центр <strong>Visa Day </strong> приглашает к сотрудничеству турагентства, туроператоров, частные коммерческие организации, корпорации, госучреждения и предлагает специальные условия:
+            <div class="services__item">
+                <div class="contact__column">
+                    <div>
+                        <div class="contact_blok">
+                            <div class="contact_title">
+                                <p>Основные контакты:</p>
+                            </div>
+                            <ul>
+                                <li class="inline">
+                                    <img src="img/contacts/telephone.svg" alt="">
+                                    <a href="tel:79789411000">+7 (978) 941-10-00</a>
+                                </li>
+
+                                <li class="inline">
+                                    <img src="img/contacts/mail.svg" alt="">
+                                    <a href="#">visaday@mail.ru</a>
+                                </li>
+                            </ul>
                         </div>
-                        </p>
-                        <ul>
-                            <li class="inline ">
-                                <img src="img/article/checkmark.svg" alt="">
-                                <p><strong>Лучшая цена.</strong>  Вы сможете заработать больше предоставляя услуги своим клиентам с нашей помощью;</p>
-                            </li>
-                            <li class="inline ">
-                                <img src="img/article/checkmark.svg" alt="">
-                                <p><strong>Сервис.</strong>  Сделаем всю работу за вас: вы передаете нам минимальный пакет документов, а мы вам визу.</p>
-                            </li>
-                            <li class="inline ">
-                                <img src="img/article/checkmark.svg" alt="">
-                                <p><strong>Гарантия сроков.</strong> Вы получите визы в срок, даже в нестандартной и сложной ситуации (например, виза после отказа или в “чистый” паспорт);</p>
-                            </li>
-                            <li class="inline ">
-                                <img src="img/article/checkmark.svg" alt="">
-                                <p><strong>Финансовая отчетность.</strong> Вы получите финансовую отчетность и прозрачные цены.</p>
-                            </li>
-                        </ul>
+
+                        <div class="contact_blok">
+                            <div class="contact_title">
+                                <p>Наш адрес:</p>
+                            </div>
+                            <ul>
+                                <li class="inline">
+                                    <img src="img/contacts/pin.svg" alt="">
+                                    <span>Симферополь, ул. Пушкина, 51</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="contact_blok">
+                            <div class="contact_title">
+                                <p>Режим работы:</p>
+                            </div>
+                                <p>Пн - Пт: с 09:00 до 18:00 <br>
+                                    Сб - Вс: выходной</p>
+                        </div>
+
+                        <div class="contact_blok">
+                            <div class="contact_title">
+                                <p>Соц. сети:</p>
+                            </div>
+                            <ul class="inline">
+                                <li><a href="#"><img src="img/contacts/instagram.svg" alt=""></a></li>
+                                <li><a href="#"><img src="img/contacts/facebook.svg" alt=""></a></li>
+                                <li><a href="#"><img src="img/contacts/youTube.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                        
                     </div>
+                    <div class="contacts__map" id="contacts__map"></div>
 
                     <div class="forma">
                         <div class="borber_inner_forma">
@@ -182,8 +209,8 @@
                         </div>
                     </div>
                 </div>
-                
             </div>
+
         </div>
     </div>
    </section>
@@ -369,5 +396,56 @@
     <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
     <script src="js/common.js"></script>
     <script src="js/tabs.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript" unselectable="on" scroll="false"></script>
+    <script>
+      (function($)
+      {
+        createMap('contacts__map', [44.944072, 34.090364]);
+
+        function createMap(xID, coords)
+        {
+          if ($("#" + xID + "").length > 0)
+          {
+            var myMap;
+            // Дождёмся загрузки API и готовности DOM.
+            ymaps.ready(init);
+
+            function init()
+            {
+              myMap = new ymaps.Map(xID,
+              {
+                center: coords,
+                zoom: 16,
+                controls: []
+              },
+              {
+                searchControlProvider: 'yandex#search'
+              });
+              // Создаём макет содержимого.
+              MyIconContentLayout = ymaps.templateLayoutFactory.createClass('<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'),
+                myPlacemark = new ymaps.Placemark(myMap.getCenter(),
+                {
+                  hintContent: 'г. Симферополь, <br> ул. Пушкина, 51',
+                  balloonContent: 'г. Симферополь, <br> ул. Пушкина, 51'
+                },
+                {
+                  // Опции.
+                  // Необходимо указать данный тип макета.
+                  iconLayout: 'default#image',
+                  // Своё изображение иконки метки.
+                  iconImageHref: 'img/pin.svg',
+                  // Размеры метки.
+                  iconImageSize: [22, 32],
+                  // Смещение левого верхнего угла иконки относительно
+                  // её "ножки" (точки привязки).
+                  iconImageOffset: [-15, -60]
+                });
+              myMap.geoObjects.add(myPlacemark);
+              myMap.behaviors.disable('scrollZoom');
+            }
+          }
+        }
+      })(jQuery);
+    </script>
 </body>
 </html>

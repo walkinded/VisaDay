@@ -50,6 +50,11 @@
                     0 -1px 0px #4F5D66;
     }
 
+    .contact__column {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
     .block6__column .box-info {
         left: 13%;
         width: 402px;
@@ -213,6 +218,11 @@
     }
     .text_container {
         max-width: 476px;
+    }
+
+    .contacts__map {
+        margin-right: 0;
+        margin-bottom: 30px;
     }
 }
 
@@ -834,6 +844,10 @@
 
     .legal_entities__column {
         padding-bottom: 30px;
+    }
+
+    .contact {
+        margin-bottom: 30px;
     }
 }
 

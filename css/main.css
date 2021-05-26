@@ -1763,7 +1763,7 @@ input[type=checkbox]{
 /* </Last news> */
 
 
-/* <> */
+/* <article> */
 .article {
     flex: 1;
 }
@@ -1903,7 +1903,7 @@ input[type=checkbox]{
     transition: .5s;
     box-shadow: 0px 5px 15px rgba(0, 121, 175, 0.0);
 }
-/* </> */
+/* </article> */
 
 
 /* <services> */
@@ -1939,7 +1939,7 @@ input[type=checkbox]{
 }
 /* </services> */
 
-/*  */
+/* <visa_other_countres> */
 .visa_other_countres {
     background: url(../img/visaToOther/bg_img.png) center top / cover;
     width: 100%;
@@ -1948,9 +1948,9 @@ input[type=checkbox]{
 
     padding-bottom: 70px;
 }
-/*  */
+/* </visa_other_countres> */
 
-/*  */
+/* <legal_entities> */
 .legal_entities {
     flex: 1;
 
@@ -1982,6 +1982,58 @@ input[type=checkbox]{
     padding-bottom: 80px;
     display: flex;
     justify-content: space-between;
+}
+/* </legal_entities> */
+
+
+/*  */
+.contact {
+    margin-bottom: 70px;
+    flex: 1;
+}
+
+.contact__content {}
+
+.contact__column {
+    display: flex;
+    justify-content: space-between;
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #263C49;
+}
+
+.contact__column a {
+    color: #263C49;
+}
+
+.contact_blok {
+    margin-bottom: 30px;
+}
+
+.contact_blok li  {
+    margin-bottom: 20px;
+}
+
+.contact_blok li img {
+    margin-right: 13px;
+}
+
+.contact_title {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.contacts__map {
+    width: 526px;
+    height: 486px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px rgba(0, 121, 175, 0.15);
+    overflow: hidden;
+    margin-right: 20px;
 }
 /*  */
 
