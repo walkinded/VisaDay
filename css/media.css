@@ -29,6 +29,7 @@
     .box-container {
         max-width: 992px;
         padding: 0 20px;
+        width: 100%;
     }
 
     .header_item li {
@@ -231,39 +232,96 @@
         width: 180px;
     }
 
+
     /* <burger menu> */
-    .wrapper {
-        display: block;
-        background: rgba(38, 60, 73, 0.2);
+    header {
+        display: flex;
+        justify-content: flex-end;
+        z-index: 4;
     }
-    .menuToggle{
-        display: block;
+    
+    .menu-btn {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        z-index:2;
+        overflow: hidden;
     }
-    .menu{
-        display: none;
+    
+    .menu-btn span {
+        width: 30px;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        transition: all 0.5s;
+    }
+    
+    .menu-btn span:nth-of-type(2) {
+        top: calc(50% - 5px);
+    }
+    .menu-btn span:nth-of-type(3) {
+        top: calc(50% + 5px);
+    }
+    
+    .menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
         width: 100%;
-        padding-left: 10px;
-        background: #2262AA;
-        transition: 0.5s;
+        height: 100%;
+        padding: 15px;
+        background-color: rgba(252, 252, 252, .99);
+        transform: translateX(-100%);
+        transition: transform 0.5s; 
     }
 
-    .menu_scrolled {
-        background: #2262AA;
+    .menu_position {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateY(50%);
     }
 
-    .menu li{
-        display: block;
+    .menu_position li {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        margin-bottom: 30px;
     }
 
-    .menu li a{
-        display: block;
-        border-bottom: 1px solid white;
+    .menu_position a {
+        color: #2262AA;
     }
-
-    .menu a:hover {
-        color: rgb(238, 238, 238);
+    
+    .menu.active {
+        transform: translateX(0);
     }
-    /* </burger menu> */
+    
+    .menu li {
+        list-style-type: none;
+    }
+    
+    .menu-btn.active span:first-of-type {
+        transform: translateX(100%);
+    }
+    
+    .menu-btn.active span:nth-of-type(2) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+        background-color: #2262AA;
+    }
+    
+    .menu-btn.active span:nth-of-type(3) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+        background-color: #2262AA;
+    }
+    /* </burger menu>  */
 
     .forma_min {
         width: 50%;

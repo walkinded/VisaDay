@@ -1,29 +1,4 @@
 $(document).ready(function() {
-
-    $(".menuToggle").click(function() {
-      $(this).toggleClass("active");
-      $('.menu').slideToggle(300, function(){
-        if($(this).css('display') === "none"){
-          $(this).removeAttr('style');
-        }
-      });
-    });
-    $(document).click(function(event) {
-      if ($(event.target).closest(".menuToggle, .menu").length) return;   //при клике на эти блоки не скрывать
-      $('.menu').hide();  //скрываем .menu при клике вне .menu
-      event.stopPropagation();
-      if ($(".menuToggle").toggleClass("active", true)) {
-        $(".menuToggle").toggleClass("active");
-      }
-    });
-    $(document).keyup(function(e) {
-      if (e.key === "Escape" && $(".menuToggle").toggleClass("active", true)) {
-        $('.menu').hide();
-        e.stopPropagation();
-        $(".menuToggle").toggleClass("active");
-      }
-    });
-
     //Попап менеджер FancyBox
     //Документация: http://fancybox.net/howto
     //<a class="fancybox"><img src="image.jpg" /></a>
@@ -89,6 +64,14 @@ $(document).ready(function() {
         }
     });
     
+
+    let menuBtn = document.querySelector('.menu-btn');
+    let menu = document.querySelector('.menu');
+
+    menuBtn.addEventListener('click', function(){
+      menuBtn.classList.toggle('active');
+      menu.classList.toggle('active');
+    })
   });
   
   
