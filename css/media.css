@@ -523,6 +523,17 @@
     
         margin-bottom: 10px;
     }
+
+    .services .block7__column {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+    }
+
+    .fone_box {
+        padding: 20px;
+    }
+
 }
 
 @media only screen and (max-width : 550px) {
@@ -732,6 +743,22 @@
     .article__content {
         margin: 20px 0 20px 0;
     }
+
+    .tour_box {
+        width: 272px;
+    }
+
+    .services__item h1 {
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 40px;
+        color: #263C49;
+        margin: 30px 0 10px 0;
+    }
+
+    .services {
+        margin-bottom: 20px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -815,13 +842,6 @@
 
     .block6__content {
         padding: 20px 0 20px 0;
-    }
-
-    .fone_box .custom_btn {
-        margin: 40px auto 0 auto;
-    }
-    .fone_box {
-        padding: 20px;
     }
 
     .block8__item .custom_btn {
