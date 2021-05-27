@@ -31,6 +31,12 @@
         padding: 0 20px;
     }
 
+    header .box-container {
+        max-width: 992px;
+        padding: 0 20px;
+        width: 100%;
+    }
+
     .header_item li {
         font-size: 14px;
         line-height: 11px;
@@ -100,6 +106,13 @@
     .wrapper1 .box_news_large:hover {
         transition: .5s;
         box-shadow: 0px 5px 15px rgba(0, 121, 175, 0.15);
+    }
+
+    .schengen_visa__item {
+        margin-right: 30px;
+    }
+    .some_visas_img {
+        display: none;
     }
 }
 
@@ -239,6 +252,40 @@
         margin-right: 0px;
         margin-bottom: 20px;
     }
+
+    .schengen_visa__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 173px;
+    }
+    .schengen_visa__item {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .sv_forma {
+        width: auto;
+        max-height: max-content;
+        flex-direction: column;
+
+        margin: 0 auto;
+    }
+
+    .left_side {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .between_line {
+        width: 100%;
+        height: 1px;
+        background: #DDDDDD;
+    
+        margin: 60px 0px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -252,9 +299,10 @@
         display: none;
     }
 
-    header img {
-        width: 180px;
+    .header_logo img {
+        width: 200%;
     }
+    
 
 
     /* <burger menu> */
@@ -639,6 +687,46 @@
     .reg_passport {
         margin-bottom: 30px;
     }
+
+    .contact__column {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .schengen_visa__item h1 {
+        font-weight: 300;
+        font-size: 35px;
+        line-height: 40px;
+    }
+    
+    .schengen_visa_font {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .schengen_visa__content {
+        padding-top: 120px;
+    }
+
+    .schengen_visa_prise__column {
+        display: flex;
+        justify-content: inherit;
+        flex-direction: column;
+        align-items: center;
+    }
+    .schengen_visa_prise__column .box_size_l {
+        width: 420px;
+        height: max-content;
+        margin: 0 0px 30px 0;
+    }
+
+    .schengen_visa_prise__item h2 {
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 40px;
+    }
 }
 
 @media only screen and (max-width : 550px) {
@@ -890,6 +978,38 @@
         color: #263C49;
         margin: 30px 0 15px 0;
     }
+
+    .box_column_horizontal .border_box p {
+        font-weight: 300;
+    }
+
+    .schengen_visa__item h1 {
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .schengen_visa__content {
+        padding-top: 90px;
+    }
+
+    .schengen_visa_prise__column .box_size_l {
+        width: auto;
+        margin: 0 0px 30px 0;
+    }
+
+    .schengen_visa_prise__item h2 {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .some_visas_title {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -1014,6 +1134,10 @@
         padding: 13px 4px;
         text-align: left;
         font-weight: 300;
+    }
+
+    .sv_forma {
+        padding: 35px 20px ;
     }
 }
 

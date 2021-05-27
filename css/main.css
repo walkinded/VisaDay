@@ -59,8 +59,12 @@ header {
 
 /* <header> */
 
-header img {
+.header_logo {
     width: 70%;
+}
+
+.header_logo img {
+    width: 100%;
 }
 
 .header_item li .animation_border {
@@ -231,7 +235,7 @@ footer {
 /* <block1> */
 
 .blok1 {
-    background: url(../img/bg_block1.jpg) center top / cover;
+    background: url(../img/bg_block1.jpeg) center top / cover;
     width: 100%;
     min-height: 850px;
     color: white;
@@ -1952,6 +1956,8 @@ input[type=checkbox]{
 
 /* <legal_entities> */
 .legal_entities {
+    background: url(../img/bg_img.png) center top / cover;
+    width: 100%;
     flex: 1;
 
     font-weight: 300;
@@ -1988,6 +1994,8 @@ input[type=checkbox]{
 
 /*  */
 .contact {
+    background: url(../img/bg_img.png) center top / cover;
+    width: 100%;
     margin-bottom: 70px;
     flex: 1;
 }
@@ -2042,6 +2050,8 @@ input[type=checkbox]{
     margin-top: 20px;
 }
 .reg_passport {
+    background: url(../img/bg_img.png) center top / cover;
+    width: 100%;
     flex: 1;
     margin-bottom: 70px;
 }
@@ -2120,3 +2130,304 @@ input[type=checkbox]{
 .reg_passport_table tr:nth-child(even){background-color: #F5F9FC;}
 /*  */
 
+
+/* <Schengen visa> */
+
+.schengen_visa {
+    background: url(../img/visa/bg_1.jpg) center top / cover;
+    width: 100%;
+
+}
+
+.schengen_visa__content {
+    display: flex;
+    padding-top: 173px;
+}
+
+.schengen_visa__item {
+    margin-right: 125px;
+}
+.schengen_visa__item h1 {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+
+.schengen_visa_font {
+    margin-top: 20px;
+
+    max-width: 639px;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+
+
+.schengen_visa_prise {
+    background: url(../img/visa/bg_2.jpg) center top / cover;
+    width: 100%;
+    color: #263C49;
+}
+
+.schengen_visa_prise__content {
+    margin-top: 57px;
+}
+
+.schengen_visa_prise__item {
+    margin-bottom: 36px;
+}
+
+.schengen_visa_prise__item h2 {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 58px;
+    
+}
+.schengen_visa_prise__column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.schengen_visa_prise__column .box_size_l {
+    width: 660px;
+    min-height: 640px;
+    margin: 0 20px 0 0;
+}
+
+.schengen_visa_prise__column  .border_box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.schengen_visa_prise__column .border_box .size p{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #263C49;
+
+    margin-top: 21px;
+}
+
+.schengen_visa_prise__column ul {
+    max-width: 368px;
+} 
+
+.schengen_visa_prise__column .border_box li {
+    margin-bottom: 10px;
+    font-weight: 300;
+} 
+
+.schengen_visa_prise__column .border_box li img {
+    height: max-content;
+    margin-top: 5px;
+} 
+
+.schengen_visa_prise__column .border_box li p {
+    font-weight: 300;
+    font-size: 16px;
+} 
+
+.s_v_prise{
+    margin: 33px 0 29px 0;
+}
+
+.s_v_prise p{
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 50px
+}
+
+.s_v_prise span {
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 50px
+}
+
+.schengen_visa_prise__column .tab_content .custom_btn {
+    margin-left: 0;
+    margin-top: 0px;
+    color: white;
+}
+
+
+.schengen_visa_forma {
+    background: url(../img/visa/bg_4.png) center top / cover;
+    width: 100%;
+    color: #263C49;
+}
+
+.schengen_visa_forma__content {
+    padding: 50px 0px;
+}
+
+.sv_forma {
+    max-width: 1349px;
+    max-height: 384px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(0, 121, 175, 0.15);
+    border-radius: 20px;
+
+    padding: 35px 40px ;
+
+    display: flex;
+}
+
+
+.left_side_img {
+    max-width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    position: relative;   
+}
+
+.left_side_img img{
+    max-width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+.between_line {
+    width: 1px;
+    height: auto;
+    background: #DDDDDD;
+
+    margin: 0 60px;
+}
+
+.online_ellipse {
+    position: absolute;
+    top: 85px;
+    right: 7px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+
+    background: #56B120;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+.fio {
+    margin-top: 20px;
+}
+
+.name {
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 24px;
+
+    margin-bottom: 5px;
+}
+
+.position {
+    font-weight: 300;
+    font-size: 16px;
+    color: #BFBFBF;
+}
+
+.num {
+    margin-top: 10px;
+}
+
+.num a{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FF1709;
+}
+
+.desc {
+    max-width: 269px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #263C49;
+
+    margin-top: 10px;
+}
+
+
+.right_side input {
+    max-width: 300px;
+    width: 100%;
+    height: 60px;
+
+    margin-bottom: 30px;
+}
+
+.right_side_title {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.right_side_sub {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+
+    margin-bottom: 22px;
+}
+
+.user_agreement {
+    margin-top: 23px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.user_agreement a {
+    color: #FF1709;
+}
+
+.schengen_visa_some_visas__content {
+    margin-bottom: 50px;
+}
+
+.schengen_visa_some_visas__column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.some_visas_main {
+    max-width: 776px;
+}
+
+.some_visas {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+
+    margin-bottom: 20px;
+}
+
+.some_visas_title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 50px;
+}
+
+.some_visas_img {
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 545px;
+    width: auto;
+
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.some_visas_img img {
+    width: 100%;
+}
+
+/* </Schengen visa> */
