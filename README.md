@@ -17,3 +17,7 @@
 Юридическим лицам: https://walkinded.github.io/VisaDay/legalEntities.html
 
 Контакты: https://walkinded.github.io/VisaDay/contact.html
+
+Оформление загранпаспорта: https://walkinded.github.io/VisaDay/regPassport.html
+
+Шенгенская виза: https://walkinded.github.io/VisaDay/visa.html
