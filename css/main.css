@@ -1956,7 +1956,7 @@ input[type=checkbox]{
 
 /* <legal_entities> */
 .legal_entities {
-    background: url(../img/bg_img.png) center top / cover;
+    background: url(../img/bg_legalEntities.png) center top / cover;
     width: 100%;
     flex: 1;
 
