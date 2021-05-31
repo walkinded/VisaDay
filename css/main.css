@@ -1917,11 +1917,12 @@ input[type=checkbox]{
     height: max-content;
     flex: 1;
 
-    margin-bottom: 72px;
+    
 }
 
 .services__content {
     color: white;
+    padding-bottom: 72px;
 }
 
 .services__item {}
