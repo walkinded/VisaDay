@@ -1142,6 +1142,18 @@
     .box_size_l  .box-shadow{
         position:inherit;
     }
+
+    .box_news_middle {
+        margin: 0px;
+        max-width: 100%;
+        width: 100%;
+        min-height: 240px;
+        border-radius: 8px;
+        position: relative;
+        display: flex;
+        margin-bottom: 24px;
+        transition: .5s;
+    }
 }
 
 /* Custom, iPhone Retina */
