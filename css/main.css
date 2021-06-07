@@ -1010,6 +1010,14 @@ input[type=checkbox]{
     margin: 10px auto 10px 0;
     height: max-content;
 }
+
+.border_box_position span {
+    transition: all 0.3s;
+}
+
+.border_box_position:hover span {
+    transform: scale(1.5);
+}
 /* block4 */
 
 /* <block5> */
