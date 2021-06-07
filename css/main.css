@@ -169,9 +169,27 @@ footer {
     margin: auto;
 }
 
+.links img {
+    transition: all 0.3s;
+}
+
+.links img:hover {
+    transform: scale(1.2);
+}
+
 .social a {
     margin-right: 17px;
+    transition: all 0.3s;
 }
+
+.social img {
+    transition: all 0.3s;
+}
+
+.social img:hover {
+    transform: scale(1.2);
+}
+
 
 .footer_logo {
     margin-bottom: 30px;
@@ -406,6 +424,8 @@ textarea::placeholder {
     font-size: 16px;
     line-height: 24px;
     color: #4F5D66;
+
+    padding-right: 10px;
 }
 
 /* </block1> */
@@ -500,6 +520,12 @@ textarea::placeholder {
     width: auto;
     height: max-content;
     margin-left: 30px;
+
+    transition: all 0.3s;
+}
+
+.box_size_l:hover {
+    transform: scale(1.01);
 }
 
 .main_box_hover:hover {
@@ -669,13 +695,20 @@ textarea::placeholder {
     box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.3);
     background: white;
     margin: 33px auto 0 auto;
+
+    overflow: hidden;
 }
 
 .box_block3 img {
     border-radius: 8px 8px 0 0;
     height: auto;
     width: 100%;
-    /* object-fit: cover; */
+    object-fit: cover;
+    transition: all 0.3s;
+}
+
+.box_block3:hover img {
+    transform: scale(1.1);
 }
 
 .bax_bg_p {
@@ -763,6 +796,12 @@ textarea::placeholder {
     box-shadow: 0px 5px 15px rgba(0, 121, 175, 0.15);
     border-radius: 8px;
     display: flex;
+
+    transition: all 0.3s;
+}
+
+.forma:hover {
+    transform: scale(1.01);
 }
 
 .borber_inner_forma {
@@ -775,6 +814,10 @@ textarea::placeholder {
     align-items: center;
     flex-direction: column;
     text-align: center;
+}
+
+.inner_forma_title {
+    font-size: 20px;
 }
 
 .borber_inner_forma input {
@@ -1037,6 +1080,10 @@ input[type=checkbox]{
     color: #263C49;
 }
 
+.block6__item .custom_btn {
+    width: 200px;
+}
+
 .block6__column {
     
 }
@@ -1121,6 +1168,13 @@ input[type=checkbox]{
     height: max-content;
 }
 
+.tour_box .box-shadow {
+    position:absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+}
+
 .fone_box {
     position: relative;
     background: rgba(34, 98, 170, 0.75);
@@ -1137,6 +1191,8 @@ input[type=checkbox]{
     box-shadow: 0px 10px 20px rgba(0, 121, 175, 0.7);
     transition: .5s;
 }
+
+
 
 .btn_min {
     border: 1px solid white;
@@ -2044,6 +2100,18 @@ input[type=checkbox]{
     overflow: hidden;
     margin-right: 20px;
 }
+
+.contact__column  .custom_btn {
+    width: 200px;
+}
+
+.contact_social a img {
+    transition: all 0.3s;
+}
+
+.contact_social a img:hover {
+    transform: scale(1.2);
+}
 /*  */
 
 /*  */
@@ -2060,6 +2128,10 @@ input[type=checkbox]{
 .reg_passport__column {
     display: flex;
     justify-content: space-between;
+}
+
+.reg_passport__column .custom_btn {
+    min-width: 200px;
 }
 
 .reg_passport__column .forma {
@@ -2145,6 +2217,10 @@ input[type=checkbox]{
     padding-top: 173px;
 }
 
+.schengen_visa__content .custom_btn {
+    min-width: 200px;
+}
+
 .schengen_visa__item {
     margin-right: 125px;
 }
@@ -2192,10 +2268,17 @@ input[type=checkbox]{
     justify-content: space-between;
 }
 
+
+
 .schengen_visa_prise__column .box_size_l {
     width: 660px;
     min-height: 640px;
     margin: 0 20px 0 0;
+}
+
+.box_size_l  .box-shadow{
+    position:absolute;
+    bottom: 45px;
 }
 
 .schengen_visa_prise__column  .border_box {

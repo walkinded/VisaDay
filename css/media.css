@@ -1139,6 +1139,9 @@
     .sv_forma {
         padding: 35px 20px ;
     }
+    .box_size_l  .box-shadow{
+        position:inherit;
+    }
 }
 
 /* Custom, iPhone Retina */
