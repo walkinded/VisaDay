@@ -148,9 +148,8 @@ footer {
 }
 
 .line img {
-    width: 60px;
-    height: 11px;
-    margin-top: 10px;
+    width: 85px;
+    height: 20px;
 }
 
 .footer_bottom {
@@ -201,6 +200,23 @@ footer {
 
 .footer_logo p {
     max-width: 150px;
+}
+
+.made_in .animation_border {
+    display: flex;
+    align-items: center;
+}
+
+.made_in img {
+    transition: all 0.3s;
+}
+
+.made_in a {
+    height: 20px;
+}
+
+.made_in img:hover {
+    transform: scale(1.2);
 }
 
 .made_in p {
