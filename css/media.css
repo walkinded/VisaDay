@@ -1010,6 +1010,10 @@
         line-height: 30px;
     }
 
+    .to_up {
+        display: none;
+    }
+
 }
 
 /* Extra Small Devices, Phones */

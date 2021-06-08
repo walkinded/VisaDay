@@ -62,8 +62,7 @@ $(document).ready(function() {
           $('header').removeClass("scrolled");   
           $('.menu').removeClass('menu_scrolled');  
         }
-    });
-    
+    });    
 
     let menuBtn = document.querySelector('.menu-btn');
     let menu = document.querySelector('.menu');
@@ -72,6 +71,11 @@ $(document).ready(function() {
       menuBtn.classList.toggle('active');
       menu.classList.toggle('active');
     })
+  });
+
+  $("a[href='#top']").click(function() {
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+    return false;
   });
   
   
