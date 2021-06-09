@@ -356,6 +356,8 @@
         display: flex;
         justify-content: center;
         transform: translateY(30%);
+        align-items: center;
+        flex-direction: column;
     }
 
     .menu_position li {
