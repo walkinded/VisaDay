@@ -23,6 +23,11 @@
         display: flex;
         justify-content: space-between;
     }
+
+    .li_before_img li p,
+    .li_before_number li p {
+        max-width: 327px;
+    }
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -72,6 +77,11 @@
 
     .text_container {
         max-width: 576px;
+    }
+
+    .li_before_img li p,
+    .li_before_number li p {
+        max-width: 255px;
     }
 
 }
