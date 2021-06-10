@@ -933,7 +933,7 @@
         margin-bottom: 10px;
     }
 
-    .article_title h2 {
+    .article_text h2 {
         font-weight: 500;
         font-size: 20px;
         line-height: 30px;
@@ -944,6 +944,11 @@
 
     .article_text li {
         margin-right: 10px;
+    }
+
+    .article_text p:not(li p) {
+        margin-right: 10px;
+        margin-bottom: 20px;
     }
 
     .article__content {
